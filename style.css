@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(16, 25px);
+    grid-template-rows: repeat(16, 25px);
+}
+
+.pixles {
+    height: 25px;
+    width: 25px;
+}
+
+.pixlebutton {
+    border: 1px solid darkblue;
+    height: 25px;
+    width: 25px;
+}
+
+.highlight {
+    background-color: orange;
+}
